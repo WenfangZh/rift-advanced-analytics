@@ -1,0 +1,17 @@
+# local data: raw archive, crawl state, DuckDB
+data/
+*.duckdb
+*.duckdb.wal
+
+# secrets
+.env
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+dist/
+build/
+*.egg-info/
